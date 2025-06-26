@@ -1,12 +1,77 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🌦️ Weather App
 
-Currently, two official plugins are available:
+A responsive weather forecast app built with **React** and **Material UI**, using the [Open-Meteo](https://open-meteo.com/) and [Open-Meteo Geocoding](https://open-meteo.com/en/docs/geocoding-api) APIs.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Live Demo: [Click Here](https://ayanjaved.github.io/weatherApp/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 📌 Features
+
+- 🔍 Search weather by **city name**
+- 📍 Uses **Open-Meteo Geocoding API** to get coordinates
+- ☁️ Displays **current weather** including:
+  - Temperature
+  - Wind speed
+  - Weather code
+  - Time
+- 🧱 Clean and modern **Material UI** components
+- 🎯 Deployed via **GitHub Pages**
+
+---
+
+## 🛠 Tech Stack
+
+- **React** (with Hooks)
+- **Vite** (for fast build & dev)
+- **Material UI** (MUI)
+- **Open-Meteo API**
+- **GitHub Pages** (for deployment)
+
+---
+
+## 📂 Getting Started
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/AyanJaved/weatherApp.git
+cd weatherApp
+````
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Run Locally
+
+```bash
+npm run dev
+```
+
+## 🔗 API Reference
+
+* **Weather Data**: [Open-Meteo Forecast API](https://open-meteo.com/en/docs)
+* **City Coordinates**: [Open-Meteo Geocoding API](https://open-meteo.com/en/docs/geocoding-api)
+
+---
+
+## 🙌 Acknowledgements
+
+* Thanks to [Open-Meteo](https://open-meteo.com/) for free and open weather APIs.
+* UI powered by [Material UI](https://mui.com/).
+
+---
+
+## 📄 License
+
+This project is open-source and free to use under the MIT License.
+
+---
+
+Made with ❤️ by **[Ayan Javed](https://github.com/AyanJaved)**
+
